@@ -38,12 +38,22 @@
 import "./App.css";
 import Greeting from "./components/Greeting/Greeting";
 import Hero from "./components/Hero/Hero";
+import ProfileCard from "./components/ProfileCard/ProfileCard";
+import Tool from "./components/Tool/Tool";
 
 function App() {
   return (
-    <>      
-      <Greeting />
-      <Greeting />
+    <>
+      <h1>Hello React</h1>
+      <Greeting name="John"/>
+      <Greeting name="Bob"/>
+      <Greeting name="Ioann" age={20}/>
+      <Tool/>
+      <ProfileCard avatar={
+        "https://m.media-amazon.com/images/S/pv-target-images/48448d3f65992c3c9da909933f7fa659efe20d88becd4b62459bc62e0da1889a.jpg"} 
+        name={"Blue Alien"} 
+        description={"Native Pandora citizen"}
+        />
       <Hero />
     </>
   );
