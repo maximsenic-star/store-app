@@ -3,3 +3,7 @@ export default function Tool(){
         <div>Important step for our journey</div>
     );
 }
+
+// reuseable
+// snippets
+// rfc, rafc
